@@ -2,16 +2,8 @@
 by Marc Boulet, 2017-04-09
 Coursera Getting &amp; Cleaning Data Peer-Graded Assignment 
 
-This repo is for the Peer-graded assignment for 
+This repo is for the Peer-graded assignment for Coursera's Getting and Cleaning Data course.
 
-
----
-title: "Peer Assignment CodeBook"
-author: "Marc Boulet"
-date: "2017-04-09"
-output:
-  html_document:
-    keep_md: yes
 ---
 
 ## Project Description
