@@ -12,6 +12,7 @@ https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-dat
 Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 The .zip file is assumed to be unzipped and accessible from a local drive, in the following directory: "~/UCI HAR Dataset/"
+
 ###Notes on the original (raw) data
 
 Two of the raw data files (X_test.txt and X_train.txt) were pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
