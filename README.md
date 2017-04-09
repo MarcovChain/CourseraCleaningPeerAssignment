@@ -12,7 +12,7 @@ Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudf
 
 ###Notes on the original (raw) data
 
-Some of the raw data files (X_test.txt and X_train.txt) was pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
+Two of the raw data files (X_test.txt and X_train.txt) were pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
 
 ##Creating the tidy datafile
 
@@ -25,7 +25,7 @@ The steps are as follows:
 4) the ACTIVITY column is recoded from 1-6 to descriptive variable names (WALKING, LAYING, etc).
 5) from the mergedata data frame, 66 variables which contain mean() and std() calculations are selected from the original 561 variables and placed into the meansd data frame.
 6) the meansd data frame is grouped by subject and activity. The average of each variable is calculated for each subject and activity.
-7) the two sets of averages (meanbysubject and meanby activity) are merged together to create the finaldata.csv data set.
+7) the two sets of averages (meanbysubject and meanbyactivity) are merged together to create the finaldata.csv data set.
 
 ###Guide to create the tidy data file
 
