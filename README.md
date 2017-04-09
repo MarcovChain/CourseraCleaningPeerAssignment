@@ -4,7 +4,8 @@ Coursera Getting and Cleaning Data Peer-Graded Assignment by Marc Boulet
 ---
 
 ## Project Description
-Refer to the project description on the Coursera website: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
+Refer to the project description on the Coursera website:
+https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
 ###Collection of the raw data
 
