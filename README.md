@@ -4,19 +4,27 @@ Coursera Getting and Cleaning Data Peer-Graded Assignment
 ---
 
 ## Project Description
-Refer to the description on the Coursera website: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
+Refer to the project description on the Coursera website: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
 ###Collection of the raw data
 
 Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-###Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+###Notes on the original (raw) data
+
+Some of the raw data files (X_test.txt and X_train.txt) was pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
 
 ##Creating the tidy datafile
+The run_analysis.R script contains the code for converting the raw data to the tidy data finaldata.csv file.The steps are as follows:
+1)load TEST and TRAINING data, consisting of subject_test.txt, y_test.txt (activity data), and x_test.csv, which contains the actual measurements
+2) load features.txt, which provides the descriptive labels for the measurement variables. The measurement variables are described in the Code Book.
+3) 
+
+
 
 ###Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
+
+
 
 ###Cleaning of the data
 Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
