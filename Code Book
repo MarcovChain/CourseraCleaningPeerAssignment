@@ -11,3 +11,8 @@ DITEN - Universit‡ degli Studi di Genova.
 Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
+
+### Variable description
+
+1) SUBJECT: the ID of one of 30 volunteers used in the study
+2) ACTIVITY: on one six activities that the volunteers performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
