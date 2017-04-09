@@ -11,6 +11,7 @@ https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-dat
 
 Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+The .zip file is assumed to be unzipped and accessible from a local drive, in the following directory: "~/UCI HAR Dataset/"
 ###Notes on the original (raw) data
 
 Two of the raw data files (X_test.txt and X_train.txt) were pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
@@ -20,7 +21,7 @@ Two of the raw data files (X_test.txt and X_train.txt) were pre-processed in Exc
 The run_analysis.R script contains the code for converting the raw data to the finaldata.csv tidy data file.
 The steps are as follows:
 
-1) load TEST and TRAINING data, including the subject_test.txt, y_test.txt, x_test.csv, subject_train.txt, y_train.txt, and x_train.csv files.
+1) load TEST and TRAINING data, including the subject_test.txt, y_test.txt, x_test.csv, subject_train.txt, y_train.txt, and x_train.csv files. 
 2) load features.txt, which provides the descriptive labels for the measurement variables. The measurement variables are described in the Code Book.
 3) the subject, x, and y files were combined together in the x_test and x_train data frames, which are then merged into the mergedata dataframe.
 4) the ACTIVITY column was recoded from numerical values (1-6) to descriptive variable names (WALKING, LAYING, etc).
