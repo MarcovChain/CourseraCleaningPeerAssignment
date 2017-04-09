@@ -15,13 +15,12 @@ Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudf
 Some of the raw data files (X_test.txt and X_train.txt) was pre-processed in Excel and converted to .csv files, as I encountered parsing errors when trying to load them first into R. The other raw files were directly imported into R.
 
 ##Creating the tidy datafile
+
 The run_analysis.R script contains the code for converting the raw data to the tidy data finaldata.csv file.
 The steps are as follows:
 
 1) load TEST and TRAINING data, consisting of subject_test.txt, y_test.txt (activity data), x_test.csv, subject_train.txt, y_train.txt (activity data), and x_train.csv which contain the actual measurements
-
 2) load features.txt, which provides the descriptive labels for the measurement variables. The measurement variables are described in the Code Book.
-
 3) the subject, x, and y files are combined together in an x_test and x_train data frames.
 4) 
 
