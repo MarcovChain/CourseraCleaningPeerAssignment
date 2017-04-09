@@ -7,6 +7,7 @@ Coursera Getting and Cleaning Data Peer-Graded Assignment
 Refer to the description on the Coursera website: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
 ###Collection of the raw data
+
 Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###Notes on the original (raw) data 
