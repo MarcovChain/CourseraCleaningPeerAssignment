@@ -1,18 +1,13 @@
 # CourseraCleaningPeerAssignment
-by Marc Boulet, 2017-04-09
-Coursera Getting &amp; Cleaning Data Peer-Graded Assignment 
-
-This repo is for the Peer-graded assignment for Coursera's Getting and Cleaning Data course.
+Coursera Getting and Cleaning Data Peer-Graded Assignment 
 
 ---
 
 ## Project Description
-Short description of the project
-
-##Study design and data processing
+Refer to the description on the Coursera website: https://www.coursera.org/learn/data-cleaning/peer/FIZtT/getting-and-cleaning-data-course-project
 
 ###Collection of the raw data
-Description of how the data was collected.
+Data (in .zip form) was downloaded from this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ###Notes on the original (raw) data 
 Some additional notes (if avaialble, otherwise you can leave this section out).
