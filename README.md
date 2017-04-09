@@ -21,12 +21,17 @@ The steps are as follows:
 
 1) load TEST and TRAINING data, consisting of subject_test.txt, y_test.txt (activity data), x_test.csv, subject_train.txt, y_train.txt (activity data), and x_train.csv which contain the actual measurements
 2) load features.txt, which provides the descriptive labels for the measurement variables. The measurement variables are described in the Code Book.
-3) the subject, x, and y files are combined together in an x_test and x_train data frames.
-4) 
-
-
+3) the subject, x, and y files are combined together in an x_test and x_train data frames, then merged into a mergedata dataframe.
+4) the ACTIVITY column is recoded from 1-6 to descriptive variable names (WALKING, LAYING, etc).
+5) from the mergedata data frame, 66 variables which contain mean() and std() calculations are selected from the original 561 variables and placed into the meansd data frame.
+6) the meansd data frame is grouped by subject and activity. The average of each variable is calculated for each subject and activity.
+7) the two sets of averages (meanbysubject and meanby activity) are merged together to create the finaldata.csv data set.
 
 ###Guide to create the tidy data file
+The finaldata.csv data set conforms to the tidy data conventions:
+1) Each variable you measure should be in one column
+2) Each different observation of that variable should be in a different row
+
 
 
 
