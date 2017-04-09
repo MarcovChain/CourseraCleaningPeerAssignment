@@ -24,7 +24,7 @@ The steps are as follows:
 
 1) load TEST and TRAINING data, including the subject_test.txt, y_test.txt, x_test.csv, subject_train.txt, y_train.txt, and x_train.csv files. 
 2) load features.txt, which provides the descriptive labels for the measurement variables. The measurement variables are described in the Code Book.
-3) the subject, x, and y files were combined together in the x_test and x_train data frames, which are then merged into the mergedata dataframe.
+3) the subject, x, and y files were combined together, using cbind(), into the x_test and x_train data frames, which are then merged into the mergedata dataframe.
 4) the ACTIVITY column was recoded from numerical values (1-6) to descriptive variable names (WALKING, LAYING, etc).
 5) from the mergedata data frame, 66 variables, which contain mean() and std() calculations, were selected from the original 561 variables and placed into the meansd data frame.
 6) the meansd data frame was grouped by subject and activity. The average of each variable was calculated for each subject and activity.
