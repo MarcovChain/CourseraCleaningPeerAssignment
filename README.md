@@ -28,6 +28,7 @@ The steps are as follows:
 7) the two sets of averages (meanbysubject and meanby activity) are merged together to create the finaldata.csv data set.
 
 ###Guide to create the tidy data file
+
 The finaldata.csv data set conforms to the tidy data conventions:
 1) Each variable you measure should be in one column
 2) Each different observation of that variable should be in a different row
