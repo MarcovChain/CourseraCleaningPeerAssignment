@@ -17,7 +17,7 @@ www.smartlab.ws
 1) SUBJECT: the ID of one of 30 volunteers used in the study
 2) ACTIVITY: on one six activities that the volunteers performed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
-The remaining variables were derived as follows (as outlined by the features_info.txt file in the datset):
+The remaining variables contain calculated averages of the mean() and std() measurements, grouped by SUBJECT and ACTIVITY, from the raw measurements, as described by the features_info.txt file in the datset:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.  
 
