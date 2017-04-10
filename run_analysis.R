@@ -54,3 +54,4 @@ meanbyactivity <- summarise_all(byactivity, mean)
 # merge the two MEANSD datasets together
 meanbyactivity$SUBJECT <- "NA"
 finaldata <- rbind(meanbysubject, meanbyactivity)
+write.table(finaldata, file = "finaldata.txt", row.name = FALSE)
